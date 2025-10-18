@@ -1,0 +1,145 @@
+/* Background and fonts */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #001f3f; /* deep blue */
+  color: white;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #ffd700, #ffffff); /* gold to white */
+  color: #001f3f;
+  text-align: center;
+  padding: 1.5rem 0;
+  border-bottom: 4px solid #ffd700;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #003366;
+}
+
+/* Navigation */
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #001f3f;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+nav a:hover, nav a.active {
+  background-color: #001f3f;
+  color: #ffd700;
+}
+
+/* Main content */
+main {
+  padding: 1.5rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+.intro h2 {
+  color: #ffd700;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #000d1a;
+  color: #cccccc;
+  font-size: 0.9rem;
+  border-top: 2px solid #ffd700;
+}
+/* Book List Styling */
+.book-list {
+  max-width: 700px;
+  margin: auto;
+  background-color: #000d1a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #001f3f;
+}
+
+.book-list h2 {
+  color: #ffd700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.book {
+  margin-bottom: 1.5rem;
+  background-color: #001f3f;
+  padding: 1rem;
+  border-left: 4px solid #ffd700;
+  border-radius: 8px;
+}
+
+.book h3 {
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.book ul {
+  list-style: none;
+  padding: 0;
+}
+
+.book li {
+  margin: 6px 0;
+}
+
+.book a {
+  color: #00bfff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.book a:hover {
+  color: #ffd700;
+}
+
+.note {
+  text-align: center;
+  color: #cccccc;
+  font-style: italic;
+  margin-top: 1.5rem;
+}
+.writings-section {
+  background: linear-gradient(180deg, #ffffff, #e3f2fd);
+  padding: 2rem;
+  border-radius: 20px;
+  color: #002366; /* Royal blue */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.book-title {
+  color: #d4af37; /* Gold for kingship */
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.chapters a {
+  color: #002366; /* Blue for purity and truth */
+  text-decoration: none;
+}
+
+.chapters a:hover {
+  text-decoration: underline;
+  color: #b8860b; /* Deeper gold on hover */
+}
